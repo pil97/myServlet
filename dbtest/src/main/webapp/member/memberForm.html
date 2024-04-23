@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>회원가입 폼</h3>
+	<form action="/memberJoin" method="post">
+		<div>아이디</div>
+		<input type="text" name="id"><br>
+		<div>비밀번호</div>
+		<input type="password" name="pwd"><br>
+		<div>이름</div>
+		<input type="text" name="name"><br>
+		<div>이메일</div>
+		<input type="text" name="email"><br> 
+		<input type="hidden"name="command" value="addMember"> 
+		<input type="submit"value="전송">
+	</form>
+</body>
+</html>
